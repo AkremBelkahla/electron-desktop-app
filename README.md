@@ -112,3 +112,5 @@ Contributions are what make the open-source community such an amazing place to l
 - [Electron](https://www.electronjs.org/)
 - [Electron Forge](https://www.electronforge.io/)
 - [Awesome Electron](https://github.com/sindresorhus/awesome-electron)
+
+Distributed under the MIT License. See `LICENSE` for more information.
