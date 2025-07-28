@@ -1,11 +1,23 @@
-# Application Desktop Simple
+# Electron Desktop Application
 
-Une application desktop simple créée avec Electron.js et une base de données locale (lowdb).
+![Electron Logo](https://www.electronjs.org/assets/img/logo.svg)
 
-## Prérequis
+A modern desktop application built with Electron, providing a seamless cross-platform experience.
 
-- Node.js (v14 ou supérieur)
-- npm (v6 ou supérieur)
+## Features
+
+- **Cross-platform** - Runs on Windows, macOS, and Linux
+- **Modern UI** - Clean and intuitive user interface
+- **Efficient** - Lightweight and performant
+- **Easy to Use** - Simple and straightforward navigation
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- Node.js (v14 or later)
+- npm (v6 or later) or Yarn
+- Git
 
 ## Installation
 
