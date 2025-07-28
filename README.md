@@ -1,7 +1,7 @@
 # 🖥️ Electron Desktop Application
 
 <div align="center">
-  <img src="https://www.electronjs.org/assets/img/logo.svg" alt="Electron Logo" width="200"/>
+  <img src="https://www.electronjs.org/assets/img/logo.svg" alt="Electron Logo" width="100"/>
   
   [![GitHub stars](https://img.shields.io/github/stars/AkremBelkahla/electron-desktop-app?style=social)](https://github.com/AkremBelkahla/electron-desktop-app/stargazers)
   [![GitHub license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/AkremBelkahla/electron-desktop-app/blob/master/LICENSE)
