@@ -1,0 +1,25 @@
+{
+  "name": "simple-desktop-app",
+  "version": "1.0.0",
+  "description": "Une application desktop simple avec Electron.js",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.6.4"
+  },
+  "dependencies": {
+    "lowdb": "^1.0.0"
+  },
+  "build": {
+    "appId": "com.simple.desktop",
+    "win": {
+      "target": "nsis"
+    }
+  }
+}
