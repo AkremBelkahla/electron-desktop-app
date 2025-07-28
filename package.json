@@ -1,25 +1,48 @@
 {
-  "name": "simple-desktop-app",
+  "name": "electron-desktop-app",
   "version": "1.0.0",
-  "description": "Une application desktop simple avec Electron.js",
+  "description": "A modern desktop application built with Electron",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-builder"
+    "dev": "electron .",
+    "build": "electron-builder",
+    "format": "prettier --write .",
+    "lint": "eslint ."
   },
-  "author": "",
+  "author": "Akrem Belkahla",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AkremBelkahla/electron-desktop-app.git"
+  },
+  "keywords": [
+    "electron",
+    "desktop",
+    "app",
+    "cross-platform"
+  ],
   "devDependencies": {
     "electron": "^28.0.0",
-    "electron-builder": "^24.6.4"
+    "electron-builder": "^24.6.4",
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.4"
   },
   "dependencies": {
     "lowdb": "^1.0.0"
   },
   "build": {
-    "appId": "com.simple.desktop",
+    "appId": "com.electron.desktop.app",
+    "productName": "Electron Desktop App",
+    "copyright": "Copyright © 2025 Akrem Belkahla",
     "win": {
       "target": "nsis"
+    },
+    "mac": {
+      "category": "public.app-category.productivity"
+    },
+    "linux": {
+      "target": ["AppImage", "deb"]
     }
   }
 }
